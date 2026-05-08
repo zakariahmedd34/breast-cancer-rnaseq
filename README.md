@@ -66,19 +66,6 @@ All models use `SelectKBest(f_classif, k=50)` as the first pipeline step — the
 
 ---
 
-## Results (test set)
-
-| Model | Accuracy | Recall | F1 | ROC AUC |
-|---|---|---|---|---|
-| Logistic Regression | 0.677 | 0.667 | 0.667 | 0.838 |
-| Linear SVM | 0.742 | 0.800 | 0.750 | 0.854 |
-| Random Forest | 0.677 | 0.600 | 0.643 | 0.771 |
-| KNN | 0.710 | 0.733 | 0.710 | 0.804 |
-
-Performance is modest due to the small sample size (123 samples). The pipeline is designed to demonstrate correct ML methodology rather than maximize accuracy.
-
----
-
 ## Notebook
 
 [`notebook/er_status_prediction_from_mrna.ipynb`](notebook/er_status_prediction_from_mrna.ipynb)
